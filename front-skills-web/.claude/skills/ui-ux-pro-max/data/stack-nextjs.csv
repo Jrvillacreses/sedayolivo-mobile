@@ -1,0 +1,26 @@
+id,category,rule,implementation,example
+1,images,next-image,Use next/image for automatic optimization,<Image src="/photo.jpg" width={800} height={600} alt="..." />
+2,routing,file-based,Use file-based routing with App Router or Pages Router,app/dashboard/page.tsx or pages/dashboard.tsx
+3,loading,streaming,Use loading.tsx for streaming SSR loading states,app/dashboard/loading.tsx with Suspense
+4,errors,error-boundary,Use error.tsx for route error boundaries,app/dashboard/error.tsx 'use client' component
+5,data,server-components,Fetch data in Server Components for performance,async function Page() { const data = await fetch(...) }
+6,client,use-client,Add 'use client' directive for client-side interactivity,Put 'use client' at top of interactive components
+7,api,route-handlers,Use Route Handlers for API endpoints,app/api/users/route.ts with GET POST functions
+8,cache,revalidation,Use revalidate for ISR static regeneration,export const revalidate = 3600 // revalidate hourly
+9,metadata,seo,Export metadata object for SEO per page,export const metadata = { title: '...' description: '...' }
+10,fonts,next-font,Use next/font for optimized font loading,import { Inter } from 'next/font/google'
+11,links,next-link,Use next/link for client-side navigation,<Link href="/dashboard">Dashboard</Link>
+12,forms,server-actions,Use Server Actions for form submissions,async function submitForm(formData: FormData)
+13,security,env,Use NEXT_PUBLIC_ prefix for client-exposed env vars,NEXT_PUBLIC_API_URL vs SERVER_SECRET
+14,layouts,shared,Use layout.tsx for shared layouts across routes,app/dashboard/layout.tsx wraps all dashboard pages
+15,params,dynamic,Use dynamic segments with [param] folders,app/blog/[slug]/page.tsx params.slug
+16,parallel,routes,Use @folder for parallel routes,app/@modal/login/page.tsx with default.tsx
+17,intercepts,modals,Use (.) (..) for intercepting routes modal patterns,app/@modal/(.)photos/[id]/page.tsx
+18,streaming,loading-ui,Use loading.tsx and Suspense for progressive loading,Wrap slow components in Suspense
+19,cache,data-cache,Understand fetch cache options force-cache no-store,fetch(url { cache: 'no-store' }) for fresh data
+20,middleware,edge,Use middleware.ts for auth redirects at edge,Export middleware function with config matcher
+21,static,generateStaticParams,Use generateStaticParams for static generation,export async function generateStaticParams()
+22,client,hooks,Use useRouter usePathname useSearchParams for client routing,const router = useRouter(); router.push('/dashboard')
+23,performance,bundle-analyze,Use @next/bundle-analyzer for bundle analysis,Configure in next.config.js
+24,images,blur,Use placeholder="blur" with blurDataURL for smooth loading,<Image placeholder="blur" blurDataURL="data:..." />
+25,scripts,next-script,Use next/script for third-party scripts,<Script src="..." strategy="lazyOnload" />

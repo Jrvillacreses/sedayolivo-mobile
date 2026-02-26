@@ -1,0 +1,21 @@
+id,type,pattern,style_recommendation,color_recommendation,typography_recommendation,key_elements
+1,saas,dashboard-centric,glassmorphism dark-mode minimalism,Ocean Depths Midnight Tech Arctic Blue,Inter DM Sans Space Grotesk,Dashboards metrics sidebar cards charts
+2,ecommerce,product-grid,minimal clean flat-design,Sunset Coral Warm Earth Rose Gold,Poppins Montserrat Outfit,Product cards filters cart wishlist
+3,portfolio,case-study,minimal brutalism asymmetric,Charcoal Minimal Slate Modern Monochrome Pro,Clash Display Outfit Space Grotesk,Project gallery bio contact testimonials
+4,blog,content-focused,minimal editorial,Cream Dream Warm Grey Cloud White,Merriweather Lora Crimson Pro,Article cards categories author sidebar
+5,dashboard,data-rich,glassmorphism dark-mode bento-grid,Midnight Tech Ocean Depths Deep Ocean,Inter Plus Jakarta Sans Geist,Charts tables KPIs filters sidebar
+6,landing,conversion,hero-centric glassmorphism gradient,Varies by industry,Poppins Outfit Plus Jakarta Sans,Hero features testimonials CTA pricing
+7,admin,functional,minimal flat-design,Slate Modern Arctic Blue,Inter Work Sans DM Sans,Tables forms navigation sidebar settings
+8,healthcare,trust-focused,clean minimal,Forest Mint Ice Blue Glacier,Inter Lexend Open Sans,Appointment booking provider info trust badges
+9,fintech,secure-premium,glassmorphism dark-mode,Royal Purple Deep Ocean Navy Corporate,Space Grotesk Geist Inter,Dashboards charts security badges transactions
+10,beauty,elegant-soft,glassmorphism organic-shapes,Rose Gold Cherry Blossom Blush Pink,Playfair Display Cormorant Lora,Product showcase testimonials booking before-after
+11,education,accessible,clean readable,Sage Wisdom Powder Blue,Lexend Inter Open Sans,Course cards progress tracking instructor profiles
+12,travel,immersive,parallax photography-heavy,Sky Fresh Turquoise Bay Tropical Sunset,Outfit Poppins Plus Jakarta Sans,Destination cards booking search filters maps
+13,restaurant,appetizing,warm photography-focused,Warm Earth Amber Glow Espresso,Playfair Display Lora Josefin Sans,Menu gallery hours reservation reviews
+14,gaming,immersive-dark,dark-mode neon glow,Cyber Neon Neon Night Galaxy,Space Grotesk Righteous Outfit,Game cards leaderboards achievements store
+15,service,trust-conversion,minimal testimonial-heavy,Varies by service type,Inter Outfit Poppins,Service cards team testimonials contact booking
+16,nonprofit,mission-driven,warm accessible,Warm Earth Forest Mint,Lexend Open Sans Inter,Impact stats stories donation CTA volunteer
+17,news,content-hierarchy,minimal editorial,Slate Modern Warm Grey,Merriweather Source Serif Libre Baskerville,Article grid categories trending breaking
+18,real-estate,listing-focused,clean photography,Copper Tone Sand Dune Terracotta,Outfit Inter Montserrat,Property cards search filters map gallery
+19,fitness,energetic-motivating,bold dynamic,Energy Boost Crimson Power,Oswald Anton Outfit,Programs trainers schedule booking community
+20,music,immersive-audio,dark-mode visualizations,Cyber Neon Galaxy Velvet,Space Grotesk Outfit,Player playlists artists albums visualizations

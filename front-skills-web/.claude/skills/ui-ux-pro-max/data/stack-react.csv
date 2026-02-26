@@ -1,0 +1,26 @@
+id,category,rule,implementation,example
+1,state,avoid-prop-drilling,Use Context or state management for deeply shared state,createContext useContext for theme auth user
+2,performance,memo-expensive,Use useMemo for expensive computations useCallback for stable callbacks,const memoized = useMemo(() => compute(data) [data])
+3,performance,avoid-rerender,Avoid creating objects/arrays in render use refs or state,const options = useMemo(() => ({ key: value }) [])
+4,hooks,custom-hooks,Extract reusable logic into custom hooks,useLocalStorage useDebounce useMediaQuery
+5,state,useState-simple,Use useState for simple local component state,const [isOpen setIsOpen] = useState(false)
+6,state,useReducer-complex,Use useReducer for complex state with multiple sub-values,useReducer(reducer initialState) for form state
+7,effects,cleanup,Always return cleanup function from useEffect when needed,useEffect(() => { sub = subscribe(); return () => sub.unsubscribe() } [])
+8,effects,dependencies,Include all dependencies in useEffect dependency array,useEffect(() => { fetch(id) } [id])
+9,keys,unique-stable,Use stable unique keys for lists never use index if list changes,key={item.id} not key={index}
+10,forms,controlled,Use controlled inputs with value and onChange,<input value={name} onChange={e => setName(e.target.value)} />
+11,events,handlers,Define event handlers with useCallback if passed to children,const handleClick = useCallback(() => {...} [deps])
+12,components,small-focused,Keep components small and focused single responsibility,Split into Container and Presentation components
+13,loading,suspense,Use Suspense for loading states with lazy components,<Suspense fallback={<Spinner />}><LazyComponent /></Suspense>
+14,errors,boundaries,Use Error Boundaries for graceful error handling,class ErrorBoundary extends Component with getDerivedStateFromError
+15,refs,dom-access,Use useRef for DOM access and mutable values,const inputRef = useRef(null); inputRef.current.focus()
+16,portals,modals,Use createPortal for modals tooltips that need to escape parent,createPortal(<Modal /> document.body)
+17,context,split,Split Context by update frequency to prevent rerenders,AuthContext separate from ThemeContext
+18,types,props,Define PropTypes or TypeScript interfaces for components,interface Props { title: string; onClick: () => void }
+19,children,composition,Prefer composition over props for flexible components,<Card><CardHeader>{title}</CardHeader></Card>
+20,testing,testable,Write components that are easy to test,Export pure functions separately add data-testid
+21,accessibility,semantic,Use semantic HTML elements in JSX,<nav> <main> <article> <button> not div onClick
+22,events,synthetic,Use React synthetic events they're normalized,onClick onKeyDown onSubmit not addEventListener
+23,conditionals,short-circuit,Use short-circuit for conditional rendering,{isLoading && <Spinner />} {data && <Content />}
+24,fragments,avoid-divs,Use Fragments to avoid unnecessary div wrappers,<>{items.map(...)}</> or <React.Fragment>
+25,styling,css-modules,Use CSS Modules or styled-components for scoped styles,import styles from './Component.module.css'

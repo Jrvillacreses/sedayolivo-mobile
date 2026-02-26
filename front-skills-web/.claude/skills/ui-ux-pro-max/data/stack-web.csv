@@ -1,0 +1,26 @@
+id,category,rule,description,example
+1,aria,roles,Use appropriate ARIA roles for custom widgets,role="menu" role="dialog" role="alert"
+2,aria,labels,Label interactive elements without visible text,aria-label="Close" aria-labelledby="heading-id"
+3,aria,states,Indicate states with ARIA attributes,aria-expanded="true" aria-selected="false" aria-disabled
+4,focus,visible,Maintain visible focus indicator,outline: 2px solid blue focus:ring-2
+5,focus,trap,Trap focus within modals,Focus should cycle within modal when open
+6,keyboard,navigation,Support keyboard navigation,Tab Arrow keys Enter Escape Space
+7,semantic,html,Use semantic HTML elements,<nav> <main> <article> <button> not <div onClick>
+8,headings,hierarchy,Maintain proper heading hierarchy,h1 > h2 > h3 no skipping levels
+9,images,alt,Provide alt text for meaningful images,alt="Product photo" alt="" for decorative
+10,color,contrast,Ensure 4.5:1 contrast ratio for text,Use contrast checker tools WCAG AA
+11,color,not-only,Don't rely on color alone,Add icons patterns or text with color
+12,forms,labels,Associate labels with inputs,<label for="email"> or wrap input
+13,forms,errors,Announce form errors to screen readers,aria-invalid="true" aria-describedby="error-id"
+14,skip,links,Provide skip to content link,<a href="#main" class="sr-only focus:not-sr-only">
+15,motion,reduced,Respect prefers-reduced-motion,@media (prefers-reduced-motion: reduce)
+16,touch,targets,Minimum 44x44px touch targets,Large enough for motor impairments
+17,live,regions,Use aria-live for dynamic content,aria-live="polite" for updates aria-live="assertive" for alerts
+18,tables,accessible,Make data tables accessible,<th scope="col"> <th scope="row"> proper headers
+19,lists,semantic,Use proper list elements,<ul> <ol> <li> for list content
+20,links,descriptive,Use descriptive link text,Read more about pricing not Click here
+21,buttons,type,Specify button type,type="button" or type="submit" explicitly
+22,modal,escape,Close modals with Escape key,handleKeyDown Escape closes modal
+23,autocomplete,forms,Use autocomplete attributes,autocomplete="email" autocomplete="current-password"
+24,virtualize,lists,Preserve accessibility with virtualized lists,Maintain ARIA when virtualizing
+25,testing,tools,Test with screen readers and tools,VoiceOver NVDA axe-core Lighthouse

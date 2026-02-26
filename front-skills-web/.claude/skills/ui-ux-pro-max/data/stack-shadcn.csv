@@ -1,0 +1,26 @@
+id,category,rule,implementation,example
+1,setup,init,Initialize shadcn with npx shadcn-ui@latest init,Follow prompts select style baseColor css variables
+2,components,add,Add components as needed not all at once,npx shadcn-ui@latest add button card
+3,theming,css-vars,Customize via CSS variables in globals.css,--primary: 222.2 47.4% 11.2%; --radius: 0.5rem;
+4,colors,hsl,Colors use HSL format without commas,hsl(var(--primary)) bg-primary text-primary-foreground
+5,variants,cva,Use class-variance-authority for variants,const buttonVariants = cva('base-classes' { variants: {...} })
+6,forms,react-hook-form,Use React Hook Form + Zod for forms,useForm<FormData>({ resolver: zodResolver(schema) })
+7,validation,zod,Define schemas with Zod,const formSchema = z.object({ email: z.string().email() })
+8,toast,sonner,Use Sonner for toast notifications,<Toaster /> toast.success('Saved!')
+9,dialog,command,Use Command component for command palette,<CommandDialog><CommandInput /><CommandList /></CommandDialog>
+10,tables,tanstack,Use TanStack Table for data tables,useReactTable with columns and data
+11,dark-mode,next-themes,Use next-themes for dark mode,<ThemeProvider attribute="class" defaultTheme="system">
+12,icons,lucide,Use Lucide React icons consistently,import { ChevronRight } from 'lucide-react'
+13,layout,components,Compose layouts with Card Sheet Dialog,<Card><CardHeader><CardContent></Card>
+14,forms,FormField,Use Form components with FormField,<FormField control={form.control} name="email" render={...} />
+15,buttons,variants,Use button variant prop for styling,<Button variant="outline" size="sm">
+16,inputs,controlled,Use shadcn Input with form control,<Input {...field} placeholder="Email" />
+17,select,controlled,Use Select with form integration,<Select onValueChange={field.onChange} defaultValue={field.value}>
+18,checkbox,groups,Use Checkbox with proper labeling,<Checkbox id="terms" /><Label htmlFor="terms">
+19,tabs,content,Use Tabs for tabbed interfaces,<Tabs defaultValue="account"><TabsList><TabsContent>
+20,dropdown,menu,Use DropdownMenu for actions,<DropdownMenu><DropdownMenuTrigger><DropdownMenuContent>
+21,sheet,mobile,Use Sheet for mobile sidebars,<Sheet><SheetTrigger><SheetContent side="left">
+22,skeleton,loading,Use Skeleton for loading states,<Skeleton className="h-4 w-[200px]" />
+23,avatar,images,Use Avatar with fallback,<Avatar><AvatarImage src="..." /><AvatarFallback>CN</AvatarFallback>
+24,badge,labels,Use Badge for status labels,<Badge variant="secondary">New</Badge>
+25,calendar,dates,Use Calendar with date-fns,<Calendar mode="single" selected={date} onSelect={setDate} />

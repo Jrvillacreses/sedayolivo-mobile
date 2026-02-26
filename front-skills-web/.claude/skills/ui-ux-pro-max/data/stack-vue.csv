@@ -1,0 +1,26 @@
+id,category,rule,implementation,example
+1,composition,script-setup,Use <script setup> for cleaner component syntax,<script setup>const count = ref(0)</script>
+2,reactivity,ref-reactive,Use ref for primitives reactive for objects,const count = ref(0) const state = reactive({ name: '' })
+3,computed,getters,Use computed for derived values,const fullName = computed(() => first.value + last.value)
+4,watchers,watch-vs-watchEffect,Use watch for specific deps watchEffect for auto-tracking,watch(source (newVal) => {...}) watchEffect(() => {...})
+5,lifecycle,onMounted,Use Composition API lifecycle hooks,onMounted(() => { fetchData() })
+6,props,defineProps,Use defineProps for type-safe props,const props = defineProps<{ title: string }>()
+7,emits,defineEmits,Use defineEmits for typed events,const emit = defineEmits<{ update: [value: string] }>()
+8,v-model,custom,Implement v-model with modelValue and update:modelValue,defineProps(['modelValue']) defineEmits(['update:modelValue'])
+9,slots,named,Use named slots for flexible composition,<slot name="header" /> <slot name="footer" />
+10,provide-inject,dependency,Use provide/inject for dependency injection,const theme = inject('theme') provide('theme' dark)
+11,composables,extract,Extract reusable logic into composables,use prefix: useCounter useFetch useLocalStorage
+12,router,vue-router,Use Vue Router with createRouter,router.push('/dashboard') useRoute() useRouter()
+13,state,pinia,Use Pinia for state management,defineStore('counter' { state: () => ({ count: 0 }) })
+14,async,suspense,Use Suspense with async setup,<Suspense><AsyncComponent /></Suspense>
+15,transitions,vue-transition,Use Transition and TransitionGroup for animations,<Transition name="fade"><div v-if="show" /></Transition>
+16,key,force-rerender,Use :key to force component remount,<Component :key="id" /> key change forces remount
+17,v-for,with-key,Always use :key with v-for,<li v-for="item in items" :key="item.id">
+18,v-if-show,performance,Use v-show for frequent toggles v-if for conditional render,v-show keeps DOM v-if destroys/creates
+19,directives,custom,Create custom directives for DOM manipulation,app.directive('focus' { mounted(el) { el.focus() } })
+20,teleport,modals,Use Teleport for modals and tooltips,<Teleport to="body"><Modal /></Teleport>
+21,template-refs,access-dom,Use template refs for DOM access,const input = ref(null) <input ref="input" />
+22,scoped-css,styling,Use scoped styles to prevent leakage,<style scoped>.card { ... }</style>
+23,keep-alive,cache,Use KeepAlive to cache component state,<KeepAlive><component :is="currentTab" /></KeepAlive>
+24,event-modifiers,shortcuts,Use event modifiers for common patterns,@click.prevent @submit.stop @keyup.enter
+25,async-components,lazy,Use defineAsyncComponent for code splitting,const AsyncComp = defineAsyncComponent(() => import('./Comp.vue'))

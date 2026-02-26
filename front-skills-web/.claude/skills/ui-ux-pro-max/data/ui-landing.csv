@@ -1,0 +1,16 @@
+id,pattern,sections,cta_strategy,best_for,conversion_focus
+1,hero-centric,Hero with strong headline and CTA prominent above fold,Single clear CTA immediate action,Product launches SaaS,High conversion immediate action
+2,social-proof-first,Hero followed by logos testimonials case studies,Build trust before ask,Enterprise B2B,Trust building credibility
+3,problem-solution,Problem statement then solution with demo,Educate then convert,Complex products SaaS,Understanding value proposition
+4,feature-showcase,Feature grid or bento layout highlighting capabilities,Multiple entry points,Feature-rich products,Feature discovery
+5,story-driven,Narrative flow with progressive disclosure,Emotional connection,Brand building lifestyle,Brand connection
+6,comparison,Side-by-side comparison with competitors or plans,Differentiation clarity,Competitive markets,Competitive positioning
+7,demo-first,Video or interactive demo above the fold,Show don't tell,Complex tools dev products,Product understanding
+8,testimonial-heavy,Customer success stories throughout page,Social validation,Service businesses,Trust building
+9,pricing-focused,Pricing prominent early on the page,Price-sensitive audience,SaaS transparent pricing,Direct sales
+10,waitlist,Coming soon with email capture minimal info,Build anticipation hype,Pre-launch products,Lead generation
+11,interactive,Interactive elements calculators quizzes,Engagement personalization,Tools with variable outcomes,Personalized engagement
+12,long-form,Comprehensive page with all information,Thorough decision makers,High-ticket items,Complete information
+13,minimal,Essential info only reduced friction,Quick decisions,Simple products impulse,Fast conversion
+14,hub-spoke,Central hero linking to product categories,Multi-product portfolios,Product portfolios agencies,Product discovery
+15,animated-scroll,Scroll-triggered animations and reveals,Engagement storytelling,Creative agencies products,Memorable experience

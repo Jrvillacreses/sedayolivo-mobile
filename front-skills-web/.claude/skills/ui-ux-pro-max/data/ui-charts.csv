@@ -1,0 +1,26 @@
+id,name,use_case,data_type,best_library,implementation_notes,accessibility_notes
+1,Line Chart,Trends over time continuous data,time-series continuous,Chart.js Recharts,Use for showing trends use markers for data points,Include data table alternative describable patterns
+2,Area Chart,Volume trends stacked comparisons,time-series volume,Recharts D3,Fill area shows magnitude good for stacked data,Provide patterns or textures for colorblind users
+3,Bar Chart,Categorical comparisons discrete data,categorical discrete,Chart.js Recharts,Horizontal for long labels vertical for time,Ensure 3:1 contrast between bars
+4,Column Chart,Time-based comparisons rankings,discrete time-based,Chart.js Recharts,Similar to bar but vertical orientation,Add labels on bars for accessibility
+5,Stacked Bar,Part-to-whole with categories,categorical composition,Recharts D3,Show composition across categories,Use patterns with colors
+6,Grouped Bar,Multi-series comparison side by side,multi-series categorical,Recharts Chart.js,Compare multiple series per category,Distinct colors with patterns
+7,Pie Chart,Simple proportions few categories,composition few-items,Chart.js Recharts,Max 5-7 slices use donut for modern look,Include percentage labels
+8,Donut Chart,Proportions with center metric,composition with-summary,Recharts Chart.js,Center can show total or key metric,Label each segment clearly
+9,Radar Chart,Multi-variable comparison profiles,multi-variable comparison,Recharts Chart.js,Good for comparing profiles or skills,Provide alternative data table
+10,Scatter Plot,Correlation between variables,correlation bivariate,D3 Recharts,Show relationship between two variables,Include trend line description
+11,Bubble Chart,Three variables with size encoding,trivariate comparison,D3 Recharts,Size represents third variable,Describe size meaning in legend
+12,Heat Map,Density patterns matrix data,matrix density,D3 Nivo,Color intensity shows values,Ensure sufficient color contrast
+13,Treemap,Hierarchical proportions nested data,hierarchical composition,D3 Recharts,Show nested categories by area,Add labels and tooltips
+14,Funnel Chart,Sequential process conversion rates,sequential conversion,Recharts custom,Sales marketing conversion flows,Label each stage with percentage
+15,Gauge Chart,Single metric progress to goal,single-value progress,custom echarts,Show progress toward target,Include numeric value display
+16,Sparkline,Inline trend indicators compact,inline-trend compact,Recharts custom,Small inline charts for tables,Describe trend direction
+17,Candlestick,Financial OHLC data stocks,financial OHLC,lightweight-charts TradingView,Open high low close data,Provide tabular data alternative
+18,Sankey Diagram,Flow between categories allocation,flow allocation,D3 Nivo,Show flow of resources or traffic,Describe flow relationships
+19,Waterfall Chart,Step changes cumulative totals,sequential cumulative,Recharts custom,Show how values add up or decrease,Label each step clearly
+20,Timeline,Events over time chronological,temporal events,custom D3,Historical events milestones,Use semantic date markup
+21,Gantt Chart,Project schedules task dependencies,schedule dependencies,DHTMLX Frappe,Project management timelines,Provide list view alternative
+22,Box Plot,Statistical distribution quartiles,statistical distribution,D3 Recharts,Show data spread and outliers,Describe statistical values
+23,Histogram,Data distribution frequency,frequency distribution,D3 Recharts,Group continuous data into bins,Describe distribution pattern
+24,Polar Area,Radial proportion comparison,radial composition,Chart.js Recharts,Similar to pie with equal angles,Label each segment
+25,Matrix Chart,Two-dimensional categorical data,categorical-2d,custom D3,Compare across two dimensions,Include row and column headers

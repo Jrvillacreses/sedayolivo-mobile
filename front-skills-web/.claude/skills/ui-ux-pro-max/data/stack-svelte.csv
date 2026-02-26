@@ -1,0 +1,26 @@
+id,category,rule,implementation,example
+1,reactivity,runes,Use Svelte 5 runes $state $derived $effect,let count = $state(0) let doubled = $derived(count * 2)
+2,props,exports,Declare props with export let (Svelte 4) or $props rune,export let title let { title } = $props()
+3,events,dispatch,Use createEventDispatcher or callback props,dispatch('message' { text }) on:message={handler}
+4,slots,default-named,Use slots for content projection,<slot /> <slot name="header" />
+5,bindings,two-way,Use bind: for two-way bindings,bind:value bind:checked bind:group
+6,reactivity,reactive-statements,$: for reactive declarations (Svelte 4),$ doubled = count * 2 $: console.log(count)
+7,lifecycle,onMount,Use lifecycle functions from svelte,onMount onDestroy beforeUpdate afterUpdate
+8,stores,writable,Use stores for shared state,const count = writable(0) $count count.set(5)
+9,actions,dom,Use actions for reusable DOM behavior,use:focus use:longpress <div use:tooltip>
+10,animations,transition,Use built-in transitions and animations,transition:fade transition:slide animate:flip
+11,sveltekit,routing,Use SvelteKit file-based routing,src/routes/blog/[slug]/+page.svelte
+12,sveltekit,load,Use +page.ts load functions for data,export const load = async () => { return { posts } }
+13,sveltekit,form-actions,Use form actions for mutations,export const actions = { default: async ({ request }) => {...} }
+14,sveltekit,layouts,Use +layout.svelte for shared layouts,src/routes/+layout.svelte wraps all pages
+15,conditional,if-else,Use {#if} {#else} for conditionals,{#if condition}...{:else}...{/if}
+16,loops,each,Use {#each} for lists with key,{#each items as item (item.id)}
+17,await,async,Use {#await} for async data,{#await promise}Loading{:then data}...{:catch error}...{/await}
+18,components,import,Import and use components naturally,import Card from './Card.svelte' <Card />
+19,styling,scoped,Styles are scoped by default,<style>.button { color: red }</style> scoped automatically
+20,class,directive,Use class: directive for conditional classes,class:active={isActive} class:hidden
+21,style,directive,Use style: directive for dynamic styles,style:color={textColor} style:--theme={theme}
+22,context,set-get,Use setContext getContext for dependency injection,setContext('theme' theme) getContext('theme')
+23,ssr,sveltekit,SvelteKit handles SSR automatically,export const prerender = true for static
+24,special,elements,Use svelte:component svelte:element for dynamic,<svelte:component this={DynamicComp} />
+25,snippets,reuse,Use {#snippet} for reusable template blocks,{#snippet item(data)}<li>{data}</li>{/snippet}

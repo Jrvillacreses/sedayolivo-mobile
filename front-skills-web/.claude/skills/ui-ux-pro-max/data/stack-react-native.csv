@@ -1,0 +1,26 @@
+id,category,rule,implementation,example
+1,components,core,Use core components View Text Image TouchableOpacity,<View><Text>Hello</Text></View>
+2,styling,StyleSheet,Use StyleSheet.create for optimized styles,const styles = StyleSheet.create({ container: { flex: 1 } })
+3,layout,flexbox,Use Flexbox for layout (default is column),style={{ flexDirection: 'row' justifyContent: 'center' }}
+4,lists,FlatList,Use FlatList for long lists (virtualized),<FlatList data={items} renderItem={({ item }) => ...} keyExtractor={item => item.id} />
+5,lists,SectionList,Use SectionList for grouped data,<SectionList sections={data} renderItem renderSectionHeader />
+6,navigation,react-navigation,Use React Navigation for routing,createStackNavigator createBottomTabNavigator
+7,navigation,screens,Organize by screens and components,screens/HomeScreen.tsx components/Button.tsx
+8,state,hooks,Use useState useEffect same as React web,const [data setData] = useState([])
+9,state,zustand,Use Zustand or Redux for global state,create((set) => ({ count: 0 increment: () => set(...) }))
+10,platform,Platform-specific,Use Platform.OS or .select for platform code,Platform.OS === 'ios' ? iosStyle : androidStyle
+11,images,Image,Use Image with proper sizing and resizeMode,<Image source={{ uri }} style={{ width height }} resizeMode="cover" />
+12,touch,pressable,Use Pressable for advanced touch feedback,<Pressable onPress style={({ pressed }) => pressed ? ... : ...}>
+13,keyboard,avoid,Use KeyboardAvoidingView for forms,<KeyboardAvoidingView behavior={Platform.OS === 'ios' ? 'padding' : 'height'}>
+14,safe-areas,SafeAreaView,Use SafeAreaView for notches and safe areas,<SafeAreaView style={{ flex: 1 }}>
+15,text-input,controlled,Use controlled TextInput with onChangeText,<TextInput value={text} onChangeText={setText} />
+16,scrolling,ScrollView,Use ScrollView for scrollable content (not lists),<ScrollView contentContainerStyle={{ padding: 16 }}>
+17,async,useEffect,Load data in useEffect with cleanup,useEffect(() => { const controller = ... return () => controller.abort() } [])
+18,icons,vector-icons,Use react-native-vector-icons or expo-icons,<Ionicons name="home" size={24} color="black" />
+19,fonts,expo-font,Use expo-font or custom font loading,useFonts({ 'Inter-Regular': require('./assets/fonts/Inter.ttf') })
+20,dimensions,responsive,Use Dimensions or useWindowDimensions,const { width height } = useWindowDimensions()
+21,animation,Animated,Use Animated API or Reanimated for animations,Animated.timing(fadeAnim { toValue: 1 duration: 200 }).start()
+22,performance,memo,Memoize components and callbacks,React.memo(ExpensiveComponent) useCallback
+23,accessibility,props,Add accessibility props to interactive elements,accessible accessibilityLabel accessibilityRole
+24,modals,Modal,Use Modal component for overlays,<Modal visible={isVisible} animationType="slide">
+25,storage,async-storage,Use AsyncStorage for persistent data,await AsyncStorage.setItem('user' JSON.stringify(user))

@@ -1,0 +1,26 @@
+id,category,rule,implementation,example
+1,views,composition,Build complex views through view composition,VStack { HeaderView() ContentView() FooterView() }
+2,state,State,Use @State for local view state,@State private var count = 0
+3,state,Binding,Use @Binding to pass state down for two-way binding,$isPresented $searchText
+4,state,StateObject,Use @StateObject for ObservableObject ownership,@StateObject private var viewModel = MyViewModel()
+5,state,ObservedObject,Use @ObservedObject when parent owns the object,@ObservedObject var viewModel: MyViewModel
+6,state,EnvironmentObject,Use @EnvironmentObject for app-wide shared data,@EnvironmentObject var settings: AppSettings
+7,layout,stacks,Use VStack HStack ZStack for layout,VStack(alignment: .leading spacing: 16) { ... }
+8,layout,LazyStack,Use LazyVStack LazyHStack for large lists,LazyVStack { ForEach(items) { item in ... } }
+9,modifiers,order,Modifier order matters - apply in logical sequence,.padding().background().cornerRadius()
+10,lists,foreach,Use ForEach with identifiable items,ForEach(items id: \.id) { item in ItemRow(item) }
+11,navigation,NavigationStack,Use NavigationStack for iOS 16+ navigation,NavigationStack { List { ... }.navigationDestination }
+12,navigation,sheets,Use .sheet .fullScreenCover for modals,.sheet(isPresented: $showDetail) { DetailView() }
+13,animation,withAnimation,Use withAnimation for animated state changes,withAnimation(.spring()) { isExpanded.toggle() }
+14,animation,transitions,Use .transition for view enter/exit animations,.transition(.slide) .transition(.opacity)
+15,gestures,onTap,Use gesture modifiers for interactions,.onTapGesture { } .gesture(DragGesture())
+16,preview,PreviewProvider,Use previews for rapid development,#Preview { ContentView() }
+17,accessibility,labels,Add accessibility labels and hints,.accessibilityLabel("Add item") .accessibilityHint
+18,colors,assets,Use Color from asset catalog for theming,Color("PrimaryBackground") or define in Assets
+19,images,sf-symbols,Use SF Symbols for consistent icons,Image(systemName: "star.fill") .foregroundStyle(.yellow)
+20,async,task,Use .task for async operations on view appear,.task { await loadData() }
+21,environment,values,Use @Environment for system values,@Environment(\.colorScheme) var colorScheme
+22,refreshable,pull,Use .refreshable for pull-to-refresh,.refreshable { await fetchItems() }
+23,searchable,search,Use .searchable for search functionality,.searchable(text: $searchText)
+24,forms,Form,Use Form for settings and input screens,Form { Section("Profile") { TextField("Name" text: $name) } }
+25,alerts,confirmations,Use .alert .confirmationDialog for user decisions,.alert("Delete?" isPresented: $showAlert) { Button("Delete" role: .destructive) { ... } }

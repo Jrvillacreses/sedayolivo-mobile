@@ -1,0 +1,48 @@
+name,description,css_keywords,best_for,mood
+glassmorphism,Frosted glass effect with blur and transparency,backdrop-blur bg-white/10 border-white/20 shadow-xl,SaaS dashboards premium apps landing pages,modern elegant futuristic
+claymorphism,Soft 3D clay-like elements with rounded corners,rounded-3xl shadow-inner bg-gradient-to-b,Kids apps playful brands education,playful friendly approachable
+neumorphism,Soft extruded plastic look with inner/outer shadows,shadow-neumorphic bg-gray-100 rounded-2xl,Minimal apps calculators music players,clean subtle sophisticated
+minimalism,Clean design with lots of whitespace and simple elements,space-y-8 text-gray-900 font-light tracking-wide,Portfolios luxury brands corporate,elegant simple professional
+brutalism,Raw bold typography with unconventional layouts,font-black uppercase border-4 border-black,Creative agencies art galleries startups,bold rebellious authentic
+bento-grid,Asymmetric grid layout inspired by bento boxes,grid-cols-4 gap-4 col-span-2 row-span-2,Feature showcases dashboard widgets portfolios,organized modern dynamic
+dark-mode,Dark background with light text and accent colors,bg-slate-900 text-white accent-purple,Dev tools gaming music apps,professional modern sleek
+flat-design,Simple 2D elements without shadows or gradients,bg-solid border-none rounded-lg,Mobile apps icons UI systems,clean accessible modern
+skeuomorphism,Realistic textures and shadows mimicking physical objects,shadow-realistic texture-leather gradient-metallic,Music apps note-taking luxury,nostalgic realistic premium
+material-design,Google's design language with elevation and motion,shadow-md rounded-md transition-all duration-200,Android apps enterprise tools,familiar consistent reliable
+aurora,Gradient mesh backgrounds with soft flowing colors,bg-gradient-to-br blur-3xl animation-pulse,Landing pages hero sections,dreamy modern artistic
+mesh-gradient,Multi-point gradient backgrounds,bg-gradient-mesh animate-gradient,Backgrounds hero sections cards,vibrant dynamic creative
+glow-effect,Neon-like glowing elements and text,shadow-glow text-shadow-glow animate-pulse,Gaming fintech tech startups,futuristic energetic bold
+frosted-card,Semi-transparent cards with blur effect,backdrop-blur-xl bg-white/5 rounded-2xl border-white/10,Overlays modals floating cards,elegant modern layered
+floating-elements,Elements with subtle shadows appearing to float,shadow-2xl hover:shadow-3xl transition-shadow,Cards buttons CTAs,dynamic interactive premium
+duotone,Two-color scheme applied to images and elements,mix-blend-multiply filter-duotone,Portfolios creative agencies,artistic bold distinctive
+gradient-border,Borders with gradient colors,bg-gradient-to-r from-pink-500 to-violet-500 p-[1px],Buttons cards highlights,modern vibrant attention-grabbing
+split-screen,Two contrasting halves with different content,grid-cols-2 min-h-screen,Landing pages comparisons,bold dramatic impactful
+asymmetric-layout,Non-symmetrical element placement,grid-cols-12 col-start-3 col-span-7,Creative portfolios agencies,unique artistic memorable
+micro-animations,Small subtle animations on user interactions,transition-all hover:scale-105 animate-bounce,CTAs buttons icons,engaging delightful polished
+parallax,Multi-layer scrolling at different speeds,transform translate-y-parallax,Hero sections storytelling,immersive dynamic engaging
+scroll-animations,Elements animate in on scroll,animate-on-scroll fade-up slide-in,Long pages storytelling,engaging dynamic modern
+card-hover-3d,3D rotation effect on card hover,perspective-1000 rotate-x-12 rotate-y-12,Feature cards portfolios,interactive premium impressive
+morphing-shapes,Animated blob shapes in background,animate-blob animation-delay-2000,Hero backgrounds,organic modern playful
+noise-texture,Subtle grain texture overlay,bg-noise opacity-5,Vintage looks premium feel,textured artistic refined
+retro-80s,Neon colors grid patterns synthwave aesthetic,neon-pink neon-cyan grid-perspective,Gaming entertainment creative,nostalgic bold fun
+swiss-design,Grid-based clean typography-focused,grid-system font-helvetica text-balance,Corporate editorial,professional clean timeless
+organic-shapes,Rounded irregular blob-like elements,rounded-[40%_60%_70%_30%/40%_50%_60%_50%],Wellness eco-friendly beauty,natural friendly approachable
+geometric-patterns,Repeating geometric shapes as decoration,pattern-dots pattern-lines pattern-triangles,Tech startups modern brands,structured modern tech-forward
+hand-drawn,Sketchy hand-drawn illustration style,stroke-2 stroke-linecap-round font-handwritten,Kids brands creative casual,friendly approachable creative
+paper-cut,Layered paper effect with shadows,shadow-paper transform translate-z,Craft editorial artistic,tactile creative layered
+isometric,3D isometric illustrations and icons,transform rotate-45 skew-y-12,Tech explainers infographics,modern clear technical
+watercolor,Soft watercolor texture backgrounds,bg-watercolor blend-multiply,Beauty wellness artistic,soft artistic feminine
+line-art,Minimal line illustration style,stroke-1 fill-none,Minimal brands portfolios,elegant simple sophisticated
+gradient-text,Text with gradient fill,bg-clip-text text-transparent bg-gradient-to-r,Headlines CTAs,modern vibrant attention-grabbing
+animated-gradient,Moving gradient backgrounds,animate-gradient-x bg-size-200,Hero sections CTAs,dynamic modern energetic
+hover-reveal,Content revealed on hover,group-hover:opacity-100 transition-opacity,Portfolios galleries,interactive engaging mysterious
+card-stack,Stacked overlapping cards,absolute inset-0 rotate-3 -rotate-3,Testimonials features,layered dynamic organized
+ribbon-banner,Decorative ribbon elements,before:absolute before:border-ribbon,Promotions badges,attention-grabbing decorative festive
+tooltip-rich,Enhanced interactive tooltips,tooltip-content animate-in fade-in,Complex UIs data apps,informative interactive helpful
+skeleton-loading,Animated placeholder loading states,animate-pulse bg-gray-200 rounded,Loading states,professional polished smooth
+progress-indicators,Visual progress and status indicators,progress-bar animate-progress,Forms multi-step flows,clear helpful guiding
+avatar-stack,Overlapping user avatars,-space-x-2 border-2 border-white,Social features team displays,collaborative social connected
+floating-action,Floating action buttons,fixed bottom-4 right-4 rounded-full shadow-lg,Mobile apps quick actions,accessible convenient prominent
+sidebar-collapsible,Collapsible navigation sidebar,w-64 w-16 transition-all duration-300,Dashboards admin panels,organized efficient space-saving
+mega-menu,Large dropdown navigation menus,absolute grid-cols-4 gap-6 p-6,E-commerce large sites,organized comprehensive accessible
+bottom-sheet,Mobile slide-up panels,fixed bottom-0 rounded-t-3xl animate-slide-up,Mobile apps modals,mobile-friendly accessible intuitive

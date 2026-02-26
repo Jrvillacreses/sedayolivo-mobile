@@ -1,0 +1,100 @@
+id,category,rule,description,priority,impact,css_hint
+1,accessibility,color-contrast,Minimum 4.5:1 ratio for normal text 3:1 for large text,1,critical,Use Tailwind text-gray-900 on white or text-white on dark
+2,accessibility,focus-states,Visible focus rings on all interactive elements,1,critical,focus:ring-2 focus:ring-offset-2 focus:ring-primary
+3,accessibility,alt-text,Descriptive alt text for all meaningful images,1,critical,Empty alt="" for decorative images only
+4,accessibility,aria-labels,Use aria-label for icon-only buttons,1,critical,aria-label="Close menu" on icon buttons
+5,accessibility,keyboard-nav,Tab order matches visual order ensure all interactive elements focusable,1,critical,Use semantic HTML or tabindex="0"
+6,accessibility,form-labels,Every input needs a visible label use label with for attribute,1,critical,<label for="email">Email</label>
+7,accessibility,reduced-motion,Check prefers-reduced-motion disable animations,3,high,@media (prefers-reduced-motion: reduce)
+8,accessibility,semantic-html,Use appropriate HTML5 elements header nav main footer,1,critical,Helps screen readers understand structure
+9,accessibility,skip-links,Provide skip to content link for keyboard users,2,high,<a href="#main" class="sr-only focus:not-sr-only">
+10,accessibility,color-only,Never use color as the only indicator,1,critical,Add icons text or patterns with colors
+11,touch,touch-target-size,Minimum 44x44px touch targets on mobile,2,critical,min-h-11 min-w-11 or p-3 on buttons
+12,touch,hover-vs-tap,Mobile has no hover use click/tap for primary interactions,2,critical,Don't hide important content in hover states
+13,touch,spacing-touch,Adequate spacing between interactive elements,2,high,gap-4 or space-y-4 between buttons
+14,touch,swipe-gestures,Support native swipe gestures where expected,2,high,Carousels lists should support swipe
+15,interaction,loading-buttons,Disable button during async operations show spinner,2,critical,disabled:opacity-50 with loading spinner
+16,interaction,error-feedback,Clear error messages positioned near the problem,2,high,text-red-600 with icon mt-2 after input
+17,interaction,success-feedback,Confirm successful actions with visual feedback,3,medium,Use toast notification or inline message
+18,interaction,cursor-pointer,Add cursor-pointer to all clickable elements,2,critical,className="cursor-pointer" on cards links
+19,interaction,hover-feedback,Provide visual feedback on hover,3,medium,hover:bg-gray-100 hover:shadow-md
+20,interaction,disabled-states,Clear visual distinction for disabled elements,2,high,opacity-50 cursor-not-allowed
+21,performance,image-optimization,Use WebP format srcset for responsive lazy loading,3,high,loading="lazy" srcset for responsive
+22,performance,content-jumping,Reserve space for async content prevent layout shift,3,high,Use skeleton loaders with fixed dimensions
+23,performance,bundle-size,Minimize JavaScript bundle size,3,high,Dynamic imports code splitting
+24,performance,render-blocking,Avoid render-blocking resources,3,high,async defer for non-critical scripts
+25,layout,viewport-meta,width=device-width initial-scale=1,4,high,<meta name="viewport" content="...">
+26,layout,readable-font-size,Minimum 16px body text on mobile,4,high,text-base or larger for body
+27,layout,horizontal-scroll,Ensure content fits viewport width no horizontal scroll,4,high,max-w-full overflow-x-hidden
+28,layout,z-index-management,Define z-index scale use consistent values,4,high,10=dropdowns 20=sticky 30=modal 50=toast
+29,layout,safe-areas,Account for notches safe areas on mobile,4,medium,padding: env(safe-area-inset-top)
+30,layout,container-width,Use consistent max-width for content,4,high,max-w-7xl mx-auto px-4
+31,typography,line-height,Use 1.5-1.75 for body text readability,5,medium,leading-relaxed or leading-loose
+32,typography,line-length,Limit to 65-75 characters per line,5,medium,max-w-prose or max-w-2xl
+33,typography,font-loading,Optimize font loading with font-display,5,medium,font-display: swap in @font-face
+34,typography,hierarchy,Clear visual hierarchy with size weight color,5,medium,Consistent heading scale h1>h2>h3
+35,typography,responsive-text,Scale typography for different screen sizes,5,medium,text-sm md:text-base lg:text-lg
+36,animation,duration-timing,Use 150-300ms for micro-interactions,6,medium,transition-all duration-200
+37,animation,easing,Use ease-out for exits ease-in for enters,6,medium,ease-out for appearing elements
+38,animation,transform-performance,Use transform and opacity not width height,6,high,Animate transform not dimension changes
+39,animation,loading-states,Use skeleton screens or spinners for loading,6,medium,animate-pulse for skeleton loaders
+40,animation,reduced-motion,Respect prefers-reduced-motion setting,6,high,Check media query before animations
+41,animation,entrance-animations,Subtle entrance animations for content,6,medium,animate-in fade-in slide-in-from-bottom
+42,style,style-match,Match UI style to product type and audience,7,medium,Glassmorphism for SaaS brutalism for creative
+43,style,consistency,Use same style across all pages and components,7,high,Create design tokens maintain consistency
+44,style,no-emoji-icons,Use SVG icons not emojis for UI elements,7,high,Heroicons Lucide or Simple Icons
+45,style,icon-sizing,Consistent icon sizing typically 24x24,7,medium,w-6 h-6 or w-5 h-5 consistently
+46,style,spacing-scale,Use consistent spacing scale,7,high,4px base: 4 8 12 16 24 32 48 64
+47,forms,input-states,Clear states for focus error disabled,8,high,border-red-500 for error ring-2 for focus
+48,forms,placeholder-contrast,Placeholder text should be visible,8,medium,placeholder:text-gray-400
+49,forms,label-position,Labels above inputs on mobile,8,medium,Stack labels above inputs
+50,forms,error-patterns,Show inline validation errors,8,high,Error message directly below input
+51,navigation,mobile-nav,Hamburger menu or bottom nav for mobile,9,high,Hidden on desktop visible on mobile
+52,navigation,breadcrumbs,Show location in navigation hierarchy,9,medium,For deep hierarchical sites
+53,navigation,active-states,Clear indication of current page,9,high,Highlight current nav item
+54,navigation,mega-menu,Large sites need organized navigation,9,medium,Grid layout for many options
+55,cards,hover-effects,Subtle hover effects on cards,10,medium,hover:shadow-lg hover:translate-y-1
+56,cards,consistent-structure,Same structure across card types,10,medium,Image title description action
+57,cards,interactive-cursor,cursor-pointer on clickable cards,10,high,Show cards are interactive
+58,buttons,button-hierarchy,Primary secondary tertiary distinction,11,high,Filled outlined ghost styles
+59,buttons,icon-buttons,Always add aria-label to icon buttons,11,critical,Accessibility for screen readers
+60,buttons,loading-state,Show loading state during actions,11,high,Spinner and disabled state
+61,modals,backdrop-close,Allow clicking backdrop to close,12,medium,Common expected behavior
+62,modals,escape-close,Close modal on Escape key,12,high,Keyboard accessibility
+63,modals,focus-trap,Trap focus within modal,12,critical,Tab should not leave modal
+64,modals,scroll-lock,Lock body scroll when modal open,12,medium,Prevent background scrolling
+65,dark-mode,contrast-dark,Ensure contrast in dark mode,13,critical,Don't just invert colors
+66,dark-mode,glass-dark,Adjust glass opacity for dark,13,high,bg-white/10 for dark bg-white/80 for light
+67,dark-mode,system-preference,Respect system color scheme preference,13,medium,prefers-color-scheme media query
+68,responsive,mobile-first,Design mobile first then expand,14,high,Start with mobile layout
+69,responsive,breakpoints,Use consistent breakpoints,14,high,sm:640 md:768 lg:1024 xl:1280
+70,responsive,touch-mobile,Larger touch targets on mobile,14,high,Increase button padding on mobile
+71,tables,responsive-tables,Make tables scrollable or stackable,15,high,overflow-x-auto on mobile
+72,tables,sortable-headers,Indicate sortable columns,15,medium,Show sort icons on headers
+73,tables,row-actions,Consistent row action placement,15,medium,Actions in last column
+74,toast,position-toast,Consistent toast positioning,16,medium,Top-right or bottom-right
+75,toast,auto-dismiss,Auto-dismiss after timeout,16,medium,3-5 seconds typically
+76,toast,dismiss-action,Allow manual dismiss,16,medium,Close button on toast
+77,scroll,scroll-behavior,Smooth scroll for anchor links,17,low,scroll-behavior: smooth
+78,scroll,scroll-padding,Account for fixed headers,17,high,scroll-padding-top: 80px
+79,scroll,infinite-scroll,Show loading indicator,17,medium,Spinner at bottom of list
+80,data-viz,color-accessible,Use colorblind-friendly palettes,18,high,Add patterns or textures
+81,data-viz,chart-labels,Always label axes and data points,18,high,Clear legends and labels
+82,data-viz,table-alternative,Provide data table for charts,18,critical,Screen reader accessibility
+83,empty-states,helpful-empty,Helpful empty state messages,19,medium,Suggest actions explain state
+84,empty-states,illustration,Use illustrations for empty states,19,low,Visual interest guidance
+85,onboarding,progressive-disclosure,Don't overwhelm new users,20,medium,Reveal features gradually
+86,onboarding,tooltips,Contextual help tooltips,20,low,Explain complex features
+87,feedback,skeleton-loading,Use skeletons over spinners,21,medium,Show content structure
+88,feedback,progress-bars,Show progress for long tasks,21,medium,Visual progress indication
+89,icons,consistent-set,Use one icon set throughout,22,high,Heroicons or Lucide not mixed
+90,icons,proper-sizing,Size icons appropriately,22,medium,w-5 h-5 inline w-6 h-6 standard
+91,glass,light-mode-glass,Higher opacity for light mode glass,23,high,bg-white/80 not bg-white/10
+92,glass,border-visibility,Visible borders in light mode,23,high,border-gray-200 not border-white/10
+93,glass,text-contrast,Dark text on light glass,23,critical,text-gray-900 not text-white
+94,hover,no-layout-shift,Hover effects shouldn't shift layout,24,high,Avoid scale transforms on cards
+95,hover,subtle-changes,Subtle color/shadow changes,24,medium,opacity or shadow not transform
+96,layout,floating-navbar,Spacing for floating navbars,25,high,top-4 left-4 right-4 not top-0
+97,layout,content-behind,Prevent content behind fixed elements,25,high,Padding for fixed navbar height
+98,logo,correct-logos,Research and use correct brand logos,26,high,Simple Icons for brand SVGs
+99,theme,direct-colors,Use theme colors directly,27,medium,bg-primary not var(--primary)

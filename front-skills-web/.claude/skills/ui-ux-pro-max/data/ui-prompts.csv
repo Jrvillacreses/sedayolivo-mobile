@@ -1,0 +1,26 @@
+style,prompt_template,css_keywords,tailwind_classes
+glassmorphism,Frosted glass effect with blur transparency and subtle border glow,backdrop-filter: blur() rgba background border-opacity,backdrop-blur-xl bg-white/10 border border-white/20 shadow-xl
+claymorphism,Soft 3D clay-like rounded surfaces with inner shadows and pastel colors,border-radius: 30px box-shadow: inset,rounded-3xl shadow-inner bg-gradient-to-b
+neumorphism,Soft UI with extruded plastic look using inner and outer shadows,box-shadow: inset outer same-bg-color,shadow-neumorphic bg-gray-100 rounded-2xl
+minimalism,Clean whitespace-heavy design with simple elements and typography,margin: large padding: generous font-weight: 300,space-y-8 text-gray-900 font-light tracking-wide
+brutalism,Raw bold unconventional layouts thick borders stark typography,border: 4px solid black text-transform: uppercase,font-black uppercase border-4 border-black
+bento-grid,Asymmetric grid layout with varied cell sizes like bento boxes,display: grid grid-template-columns grid-template-rows,grid-cols-4 gap-4 col-span-2 row-span-2
+dark-mode,Dark background surfaces with light text and vibrant accents,background: #0F172A color: #F8FAFC,bg-slate-900 text-white
+flat-design,2D elements without shadows gradients or textures,box-shadow: none background: solid border-radius,bg-solid border-none rounded-lg
+skeuomorphism,Realistic textures shadows and gradients mimicking physical objects,background-image: texture box-shadow: realistic,shadow-realistic texture-leather gradient-metallic
+aurora,Flowing gradient mesh backgrounds with soft blurred color transitions,background: radial-gradient filter: blur animation,bg-gradient-to-br blur-3xl animate-pulse
+mesh-gradient,Multi-point gradient backgrounds with organic color transitions,background: conic-gradient radial-gradient,bg-gradient-mesh animate-gradient
+glow-effect,Neon-like glowing effects on elements and text,box-shadow: 0 0 20px text-shadow glow,shadow-glow text-shadow-glow animate-pulse
+frosted-card,Semi-transparent card with backdrop blur and subtle border,backdrop-filter: blur background: rgba border,backdrop-blur-xl bg-white/5 rounded-2xl border-white/10
+floating-elements,Elements with pronounced shadows appearing to float,box-shadow: 0 25px 50px transform: translateY,shadow-2xl hover:shadow-3xl transition-shadow
+gradient-border,Borders with smooth color gradients,background: linear-gradient border-image-source,bg-gradient-to-r from-pink-500 to-violet-500 p-[1px]
+split-screen,Two distinct halves with contrasting or complementary layouts,display: grid grid-template-columns: 1fr 1fr min-height: 100vh,grid-cols-2 min-h-screen
+micro-animations,Small responsive animations on user interactions,transition: 0.2s transform: scale animation,transition-all hover:scale-105 animate-bounce
+parallax,Multi-layer scrolling at different speeds for depth,transform: translateY perspective overflow-y,transform translate-y-parallax
+scroll-animations,Elements animate into view on scroll,animation: fadeIn slideUp opacity transform,animate-on-scroll fade-up slide-in
+card-hover-3d,3D rotation effects on card hover with perspective,perspective: 1000px transform: rotateX rotateY,perspective-1000 rotate-x-12 rotate-y-12
+morphing-shapes,Animated organic blob shapes as background decoration,border-radius: animated animation: morph,animate-blob animation-delay-2000
+noise-texture,Subtle grain overlay for texture and depth,background-image: url(noise.svg) opacity: 0.05,bg-noise opacity-5
+retro-80s,Neon colors chrome text grid perspective synthwave aesthetic,color: #ff00ff #00ffff background: grid linear-gradient,neon-pink neon-cyan grid-perspective
+swiss-design,Clean grid-based layouts with strong typography hierarchy,display: grid font-family: Helvetica text-align,grid-system font-helvetica text-balance
+organic-shapes,Irregular rounded blob-like shapes as decorative elements,border-radius: 40% 60% 70% 30% / 40% 50% 60% 50%,rounded-[40%_60%_70%_30%/40%_50%_60%_50%]

@@ -1,0 +1,98 @@
+id,name,category,primary,secondary,accent,background,text,best_for,mood
+1,Ocean Depths,saas,#0EA5E9,#0284C7,#38BDF8,#0F172A,#F8FAFC,SaaS dashboards analytics,professional trustworthy modern
+2,Forest Mint,healthcare,#10B981,#059669,#34D399,#ECFDF5,#064E3B,Healthcare wellness medical,calm healing natural
+3,Sunset Coral,ecommerce,#F97316,#EA580C,#FB923C,#FFF7ED,#7C2D12,E-commerce fashion retail,warm energetic inviting
+4,Royal Purple,fintech,#8B5CF6,#7C3AED,#A78BFA,#1E1B4B,#EDE9FE,Fintech premium apps,luxurious innovative bold
+5,Midnight Tech,tech,#6366F1,#4F46E5,#818CF8,#020617,#E0E7FF,Tech startups dev tools,modern innovative futuristic
+6,Rose Gold,beauty,#F472B6,#EC4899,#FB7185,#FFF1F2,#831843,Beauty fashion luxury,elegant feminine premium
+7,Emerald Pro,enterprise,#059669,#047857,#34D399,#FFFFFF,#064E3B,Enterprise corporate B2B,professional stable trustworthy
+8,Cyber Neon,gaming,#22D3EE,#06B6D4,#F0ABFC,#09090B,#ECFEFF,Gaming entertainment,energetic bold exciting
+9,Warm Earth,wellness,#D97706,#B45309,#FBBF24,#FFFBEB,#78350F,Wellness eco organic,natural warm grounding
+10,Arctic Blue,productivity,#3B82F6,#2563EB,#60A5FA,#EFF6FF,#1E3A8A,Productivity tools SaaS,focused clean efficient
+11,Lavender Dreams,creative,#A855F7,#9333EA,#C084FC,#FAF5FF,#581C87,Creative agencies design,creative inspiring artistic
+12,Cherry Blossom,beauty,#FB7185,#F43F5E,#FDA4AF,#FFF1F2,#9F1239,Beauty cosmetics spa,delicate feminine fresh
+13,Deep Ocean,fintech,#0891B2,#0E7490,#22D3EE,#042F2E,#ECFEFF,Fintech banking investment,secure professional deep
+14,Golden Hour,luxury,#F59E0B,#D97706,#FCD34D,#1C1917,#FEF3C7,Luxury hospitality premium,warm luxurious sophisticated
+15,Slate Modern,corporate,#64748B,#475569,#94A3B8,#F8FAFC,#0F172A,Corporate enterprise tools,professional neutral modern
+16,Peacock Teal,saas,#14B8A6,#0D9488,#2DD4BF,#F0FDFA,#134E4A,SaaS analytics dashboards,fresh modern distinctive
+17,Crimson Power,sports,#DC2626,#B91C1C,#F87171,#FEF2F2,#7F1D1D,Sports fitness energy,powerful energetic bold
+18,Olive Garden,organic,#84CC16,#65A30D,#BEF264,#F7FEE7,#365314,Organic eco sustainable,natural fresh healthy
+19,Blush Pink,fashion,#EC4899,#DB2777,#F9A8D4,#FDF2F8,#9D174D,Fashion lifestyle beauty,feminine trendy stylish
+20,Navy Corporate,finance,#1E40AF,#1E3A8A,#3B82F6,#EFF6FF,#172554,Finance banking legal,trustworthy stable professional
+21,Sage Calm,wellness,#6B7280,#4B5563,#9CA3AF,#F9FAFB,#111827,Wellness meditation mindfulness,calm serene peaceful
+22,Electric Lime,startup,#A3E635,#84CC16,#D9F99D,#1A2E05,#ECFCCB,Startups tech innovation,energetic fresh bold
+23,Burgundy Rich,wine,#A21CAF,#86198F,#E879F9,#4A044E,#FAE8FF,Wine food luxury,rich sophisticated indulgent
+24,Sky Fresh,travel,#0EA5E9,#0284C7,#7DD3FC,#F0F9FF,#0C4A6E,Travel hospitality leisure,open fresh adventurous
+25,Charcoal Minimal,portfolio,#18181B,#27272A,#52525B,#FAFAFA,#18181B,Portfolio minimal design,sophisticated minimal elegant
+26,Amber Glow,restaurant,#F59E0B,#D97706,#FDE68A,#FFFBEB,#78350F,Restaurant food hospitality,warm appetizing inviting
+27,Ice Blue,medical,#38BDF8,#0EA5E9,#BAE6FD,#F0F9FF,#075985,Medical healthcare clinical,clean sterile professional
+28,Moss Green,nature,#4D7C0F,#3F6212,#A3E635,#F7FEE7,#1A2E05,Nature outdoor eco,natural organic earthy
+29,Plum Elegant,luxury,#7E22CE,#6B21A8,#C084FC,#FAF5FF,#3B0764,Luxury fashion exclusive,elegant rich distinctive
+30,Coral Reef,lifestyle,#F97316,#EA580C,#FDBA74,#FFF7ED,#7C2D12,Lifestyle blog social,vibrant warm friendly
+31,Steel Grey,industrial,#6B7280,#4B5563,#D1D5DB,#F3F4F6,#111827,Industrial manufacturing B2B,strong reliable professional
+32,Aquamarine,spa,#2DD4BF,#14B8A6,#99F6E4,#F0FDFA,#115E59,Spa relaxation wellness,refreshing calm soothing
+33,Rust Vintage,artisan,#EA580C,#C2410C,#FB923C,#FFF7ED,#7C2D12,Artisan craft handmade,warm authentic rustic
+34,Violet Tech,startup,#8B5CF6,#7C3AED,#C4B5FD,#1E1B4B,#EDE9FE,Tech AI startup,innovative modern cutting-edge
+35,Honey Gold,bakery,#EAB308,#CA8A04,#FEF08A,#FEFCE8,#713F12,Bakery cafe food,sweet warm comforting
+36,Marine Blue,maritime,#0369A1,#0C4A6E,#38BDF8,#F0F9FF,#082F49,Maritime shipping logistics,strong reliable professional
+37,Fuchsia Pop,creative,#D946EF,#C026D3,#F0ABFC,#FDF4FF,#701A75,Creative agency marketing,bold vibrant creative
+38,Pine Forest,outdoor,#166534,#14532D,#4ADE80,#F0FDF4,#052E16,Outdoor adventure eco,natural adventurous fresh
+39,Copper Tone,architecture,#B45309,#92400E,#FBBF24,#FFFBEB,#78350F,Architecture design real estate,sophisticated refined warm
+40,Cloud White,minimal,#F8FAFC,#E2E8F0,#94A3B8,#FFFFFF,#0F172A,Minimal clean modern,pure simple elegant
+41,Neon Night,entertainment,#F0ABFC,#E879F9,#22D3EE,#09090B,#FAE8FF,Entertainment nightlife events,exciting bold energetic
+42,Terracotta,home,#C2410C,#9A3412,#FB923C,#FFF7ED,#7C2D12,Home decor interior,warm earthy cozy
+43,Jade Dynasty,asian,#059669,#047857,#34D399,#ECFDF5,#064E3B,Asian cuisine culture,elegant balanced harmonious
+44,Powder Blue,baby,#93C5FD,#60A5FA,#BFDBFE,#EFF6FF,#1E40AF,Baby kids family,soft gentle nurturing
+45,Charcoal Gold,premium,#18181B,#27272A,#F59E0B,#09090B,#FAFAFA,Premium luxury exclusive,sophisticated elegant premium
+46,Mint Fresh,health,#34D399,#10B981,#6EE7B7,#ECFDF5,#065F46,Health fitness nutrition,fresh healthy vibrant
+47,Dusty Rose,wedding,#FCA5A5,#F87171,#FECDD3,#FFF1F2,#9F1239,Wedding events romantic,romantic elegant delicate
+48,Electric Blue,tech,#3B82F6,#2563EB,#93C5FD,#020617,#DBEAFE,Tech innovation digital,modern dynamic innovative
+49,Sage Wisdom,education,#6B7280,#4B5563,#10B981,#F9FAFB,#111827,Education learning academic,trustworthy calm focused
+50,Tropical Sunset,vacation,#F97316,#FB923C,#EC4899,#FFF7ED,#7C2D12,Vacation travel tropical,vibrant warm exciting
+51,Monochrome Pro,portfolio,#18181B,#52525B,#A1A1AA,#FAFAFA,#09090B,Portfolio professional minimal,sophisticated clean focused
+52,Candy Pop,kids,#EC4899,#F472B6,#A855F7,#FDF2F8,#831843,Kids toys playful,fun colorful energetic
+53,Espresso,cafe,#78350F,#92400E,#FCD34D,#FFFBEB,#451A03,Cafe coffee artisan,warm rich inviting
+54,Glacier,clinical,#E0F2FE,#BAE6FD,#0EA5E9,#F8FAFC,#0C4A6E,Clinical healthcare research,clean pure professional
+55,Scarlet,bold,#DC2626,#B91C1C,#FCA5A5,#FEF2F2,#7F1D1D,Bold statements promotions,powerful attention-grabbing urgent
+56,Seafoam,coastal,#5EEAD4,#2DD4BF,#99F6E4,#F0FDFA,#0F766E,Coastal beach leisure,fresh calm refreshing
+57,Graphite,minimal,#3F3F46,#52525B,#A1A1AA,#FAFAFA,#18181B,Minimal professional,sophisticated neutral modern
+58,Peach Blush,beauty,#FECACA,#FCA5A5,#FB7185,#FFF1F2,#9F1239,Beauty skincare cosmetics,soft feminine fresh
+59,Deep Teal,consulting,#0D9488,#0F766E,#5EEAD4,#F0FDFA,#134E4A,Consulting professional services,trustworthy sophisticated modern
+60,Marigold,cheerful,#FBBF24,#F59E0B,#FDE68A,#FFFBEB,#92400E,Cheerful positive brands,warm happy optimistic
+61,Space,technology,#1E1B4B,#312E81,#818CF8,#030712,#C7D2FE,Technology space innovation,futuristic deep innovative
+62,Coral Sand,beach,#FED7AA,#FDBA74,#F97316,#FFF7ED,#9A3412,Beach resort hospitality,warm relaxed tropical
+63,Indigo Night,premium,#4338CA,#3730A3,#A5B4FC,#0A0A0F,#E0E7FF,Premium SaaS fintech,deep luxurious professional
+64,Lemon Zest,fresh,#FEF08A,#FDE047,#FACC15,#FEFCE8,#713F12,Fresh food organic,bright energetic fresh
+65,Smoky Violet,creative,#5B21B6,#6D28D9,#A78BFA,#1E1B4B,#DDD6FE,Creative agency portfolio,mysterious creative deep
+66,Autumn Leaf,seasonal,#C2410C,#B91C1C,#F97316,#FFF7ED,#7C2D12,Seasonal retail fall,warm cozy natural
+67,Arctic Fresh,clean,#BAE6FD,#7DD3FC,#0EA5E9,#F0F9FF,#0369A1,Clean tech health,fresh pure clean
+68,Rose Quartz,romantic,#FDA4AF,#FB7185,#F472B6,#FFF1F2,#9F1239,Romantic fashion jewelry,delicate feminine romantic
+69,Forest Night,nature,#14532D,#166534,#22C55E,#022C22,#DCFCE7,Nature eco adventure,natural deep mysterious
+70,Chrome Metal,industrial,#71717A,#52525B,#D4D4D8,#18181B,#FAFAFA,Industrial tech automotive,strong modern sleek
+71,Bubblegum,playful,#F9A8D4,#F472B6,#A855F7,#FDF2F8,#9D174D,Playful youth fun,fun colorful playful
+72,Champagne,celebration,#FEF3C7,#FDE68A,#F59E0B,#FFFBEB,#78350F,Celebration events luxury,elegant festive warm
+73,Deep Sea,marine,#0C4A6E,#075985,#38BDF8,#082F49,#BAE6FD,Marine ocean environmental,deep mysterious vast
+74,Matcha,zen,#A3E635,#84CC16,#D9F99D,#F7FEE7,#365314,Zen wellness organic,calm natural balanced
+75,Mulberry,elegant,#A21CAF,#86198F,#D946EF,#4A044E,#F5D0FE,Elegant fashion luxury,rich elegant sophisticated
+76,Sand Dune,earth,#D6D3D1,#A8A29E,#78716C,#FAFAF9,#292524,Earth natural minimal,warm natural grounded
+77,Sapphire,premium,#1E3A8A,#1E40AF,#3B82F6,#0F172A,#DBEAFE,Premium finance legal,trustworthy sophisticated deep
+78,Spring Bloom,garden,#A7F3D0,#6EE7B7,#F472B6,#ECFDF5,#064E3B,Garden nature seasonal,fresh vibrant natural
+79,Sunset Glow,warm,#FED7AA,#FDBA74,#FB7185,#FFF7ED,#9A3412,Warm lifestyle social,warm inviting friendly
+80,Titanium,professional,#78716C,#57534E,#D6D3D1,#FAFAF9,#1C1917,Professional corporate,strong reliable professional
+81,Turquoise Bay,travel,#2DD4BF,#14B8A6,#5EEAD4,#F0FDFA,#115E59,Travel beach resort,fresh adventurous vibrant
+82,Velvet,luxury,#581C87,#6B21A8,#A855F7,#3B0764,#E9D5FF,Luxury exclusive premium,luxurious rich elegant
+83,Warm Grey,neutral,#78716C,#57534E,#A8A29E,#F5F5F4,#1C1917,Neutral minimal modern,calm neutral sophisticated
+84,Wine Red,culinary,#7F1D1D,#991B1B,#DC2626,#FEF2F2,#450A0A,Culinary wine gourmet,rich sophisticated indulgent
+85,Zen Garden,mindful,#D1FAE5,#A7F3D0,#6EE7B7,#ECFDF5,#064E3B,Mindful wellness meditation,calm peaceful balanced
+86,Amber Alert,urgent,#F59E0B,#D97706,#FDE68A,#FFFBEB,#78350F,Urgent notifications alerts,attention-grabbing clear urgent
+87,Blue Steel,automotive,#64748B,#475569,#3B82F6,#0F172A,#F1F5F9,Automotive tech industrial,strong reliable modern
+88,Cream Dream,bakery,#FEF3C7,#FDE68A,#D97706,#FFFBEB,#78350F,Bakery dessert cafe,warm sweet comforting
+89,Digital Ocean,tech,#06B6D4,#0891B2,#22D3EE,#042F2E,#CFFAFE,Tech cloud digital,modern innovative fresh
+90,Energy Boost,fitness,#84CC16,#65A30D,#F97316,#F7FEE7,#3F6212,Fitness energy sports,energetic dynamic powerful
+91,Galaxy,space,#312E81,#4338CA,#C084FC,#030712,#DDD6FE,Space technology gaming,mysterious vast futuristic
+92,Harvest,autumn,#B45309,#92400E,#F59E0B,#FFFBEB,#78350F,Autumn harvest seasonal,warm abundant natural
+93,Imperial,royal,#4C1D95,#5B21B6,#8B5CF6,#1E1B4B,#DDD6FE,Royal luxury exclusive,regal luxurious distinguished
+94,Jungle,tropical,#166534,#15803D,#4ADE80,#052E16,#DCFCE7,Tropical jungle nature,wild natural vibrant
+95,Kindle,reading,#FCD34D,#FBBF24,#92400E,#FFFBEB,#78350F,Reading books education,warm intellectual cozy
+96,Lighthouse,maritime,#0369A1,#0284C7,#7DD3FC,#F0F9FF,#0C4A6E,Maritime coastal guide,reliable guiding strong
+97,Mountain,adventure,#57534E,#44403C,#78716C,#F5F5F4,#1C1917,Adventure outdoor travel,strong natural grounded

@@ -1,0 +1,58 @@
+id,heading_font,body_font,google_fonts_import,mood,best_for,style_notes
+1,Inter,Inter,Inter:wght@400;500;600;700,modern clean professional,SaaS dashboards enterprise,Highly readable all-purpose font
+2,Playfair Display,Source Sans Pro,Playfair+Display:wght@400;700|Source+Sans+Pro:wght@400;600,elegant editorial classic,Luxury fashion magazines,Serif heading + Sans body contrast
+3,Poppins,Poppins,Poppins:wght@400;500;600;700,friendly modern geometric,Startups apps marketing,Geometric rounded friendly
+4,Montserrat,Open Sans,Montserrat:wght@400;500;600;700|Open+Sans:wght@400;600,professional versatile clean,Corporate portfolios,Urban geometric + readable body
+5,Space Grotesk,Space Grotesk,Space+Grotesk:wght@400;500;600;700,tech futuristic bold,Tech startups dev tools,Techy with coding-friendly numerals
+6,DM Sans,DM Sans,DM+Sans:wght@400;500;700,neutral modern minimal,Apps dashboards clean UI,Low-contrast geometric sans
+7,Outfit,Outfit,Outfit:wght@400;500;600;700,contemporary sleek modern,Modern brands tech,Variable font with wide range
+8,Sora,Sora,Sora:wght@400;500;600;700,futuristic geometric clean,Tech AI blockchain,Geometric with unique character
+9,Fraunces,Libre Franklin,Fraunces:wght@400;700|Libre+Franklin:wght@400;600,editorial quirky distinctive,Editorial creative agencies,Variable serif with personality
+10,Clash Display,Cabinet Grotesk,Clash+Display:wght@400;500;600;700,bold modern statement,Creative portfolios fashion,High-impact display font
+11,General Sans,General Sans,General+Sans:wght@400;500;600;700,clean neutral versatile,Any project minimal,Versatile clean sans-serif
+12,Manrope,Manrope,Manrope:wght@400;500;600;700,semi-rounded modern friendly,Apps startups,Modern with subtle roundness
+13,Plus Jakarta Sans,Plus Jakarta Sans,Plus+Jakarta+Sans:wght@400;500;600;700,clean professional modern,SaaS enterprise,Clean geometric alternative to Inter
+14,Satoshi,Satoshi,Satoshi:wght@400;500;600;700,modern geometric minimal,Tech portfolios,Modern geometric sans
+15,Work Sans,Work Sans,Work+Sans:wght@400;500;600;700,optimized screen modern,Dashboards apps,Optimized for screen interfaces
+16,Lexend,Lexend,Lexend:wght@400;500;600;700,readable accessible friendly,Accessibility-focused,Designed for improved readability
+17,Bricolage Grotesque,Bricolage Grotesque,Bricolage+Grotesque:wght@400;500;600;700,quirky distinctive modern,Creative startups,Unique character with personality
+18,Geist,Geist,Geist:wght@400;500;600;700,sharp modern technical,Developer tools tech,Vercel's font for tech interfaces
+19,Onest,Onest,Onest:wght@400;500;600;700,friendly rounded modern,Apps marketing,Friendly rounded sans-serif
+20,Switzer,Switzer,Switzer:wght@400;500;600;700,clean swiss-inspired neutral,Corporate clean UI,Swiss design inspired
+21,Cormorant Garamond,Lato,Cormorant+Garamond:wght@400;500;600;700|Lato:wght@400;700,elegant classical refined,Luxury fashion editorial,Elegant serif + clean sans
+22,Libre Baskerville,Source Sans Pro,Libre+Baskerville:wght@400;700|Source+Sans+Pro:wght@400;600,traditional authoritative,Legal finance journalism,Classic serif readability
+23,Merriweather,Roboto,Merriweather:wght@400;700|Roboto:wght@400;500,readable warm classic,Blogs editorial,Highly readable serif for body
+24,Lora,Nunito,Lora:wght@400;500;600;700|Nunito:wght@400;600,contemporary elegant warm,Lifestyle blogs,Modern serif + rounded sans
+25,Crimson Pro,Montserrat,Crimson+Pro:wght@400;500;600;700|Montserrat:wght@400;600,editorial refined classic,Publishing editorial,Refined serif for long reading
+26,Bodoni Moda,Nunito Sans,Bodoni+Moda:wght@400;700|Nunito+Sans:wght@400;600,high fashion luxurious,Luxury fashion beauty,High contrast elegant serif
+27,EB Garamond,Inter,EB+Garamond:wght@400;500;600;700|Inter:wght@400;500,timeless scholarly elegant,Publishing academic,Classic garamond interpretation
+28,Spectral,Work Sans,Spectral:wght@400;500;600;700|Work+Sans:wght@400;600,modern serif readable,Editorial apps,Modern serif for screens
+29,Josefin Sans,Josefin Sans,Josefin+Sans:wght@400;500;600;700,elegant geometric art deco,Fashion lifestyle,Elegant 1920s inspired
+30,Raleway,Raleway,Raleway:wght@400;500;600;700,elegant thin modern,Creative portfolios,Elegant with thin weights
+31,Oswald,Open Sans,Oswald:wght@400;500;600;700|Open+Sans:wght@400;600,bold condensed impactful,Headlines news,Condensed bold for headlines
+32,Anton,Roboto,Anton|Roboto:wght@400;500,ultra bold impactful,Headlines posters,Impact-style for headlines
+33,Bebas Neue,Source Sans Pro,Bebas+Neue|Source+Sans+Pro:wght@400;600,bold tall condensed,Headlines headers,All-caps display font
+34,Archivo Black,Archivo,Archivo+Black|Archivo:wght@400;500;600,bold strong industrial,Sports industrial,Strong industrial headings
+35,Fjalla One,Noto Sans,Fjalla+One|Noto+Sans:wght@400;500;600,condensed strong versatile,Headlines banners,Medium-contrast condensed
+36,Rubik,Rubik,Rubik:wght@400;500;600;700,rounded friendly playful,Apps startups kids,Slightly rounded corners
+37,Quicksand,Quicksand,Quicksand:wght@400;500;600;700,rounded light friendly,Kids brands wellness,Rounded geometric sans
+38,Nunito,Nunito,Nunito:wght@400;500;600;700,well-rounded friendly,Friendly apps,Balanced rounded sans
+39,Comfortaa,Comfortaa,Comfortaa:wght@400;500;600;700,rounded futuristic soft,Tech kids playful,Geometric rounded futuristic
+40,Varela Round,Nunito,Varela+Round|Nunito:wght@400;600,soft friendly minimal,Apps friendly UI,Simple rounded concept
+41,Caveat,Lato,Caveat:wght@400;500;600;700|Lato:wght@400;700,handwritten casual personal,Personal blogs notes,Natural handwritten style
+42,Dancing Script,Quicksand,Dancing+Script:wght@400;500;600;700|Quicksand:wght@400;500,elegant cursive romantic,Wedding invitations,Elegant script for accents
+43,Pacifico,Poppins,Pacifico|Poppins:wght@400;500;600,fun retro playful,Casual brands restaurants,Retro script style
+44,Great Vibes,Montserrat,Great+Vibes|Montserrat:wght@400;500;600,elegant formal romantic,Wedding luxury,Elegant formal script
+45,Satisfy,Work Sans,Satisfy|Work+Sans:wght@400;500;600,casual elegant handwritten,Casual brands,Brush script casual
+46,JetBrains Mono,Inter,JetBrains+Mono:wght@400;500;600;700|Inter:wght@400;500,code technical monospace,Dev tools code,Developer-focused monospace
+47,Fira Code,Fira Sans,Fira+Code:wght@400;500;600;700|Fira+Sans:wght@400;500,code ligatures technical,Programming IDE,Ligatures for code
+48,Source Code Pro,Source Sans Pro,Source+Code+Pro:wght@400;500;600;700|Source+Sans+Pro:wght@400;600,clean monospace readable,Code documentation,Adobe's monospace font
+49,IBM Plex Mono,IBM Plex Sans,IBM+Plex+Mono:wght@400;500;600;700|IBM+Plex+Sans:wght@400;500,corporate code technical,Enterprise dev tools,IBM's versatile monospace
+50,Roboto Mono,Roboto,Roboto+Mono:wght@400;500;600;700|Roboto:wght@400;500,clean monospace standard,Apps with code,Google's monospace standard
+51,Abril Fatface,Lato,Abril+Fatface|Lato:wght@400;700,bold editorial dramatic,Headlines editorial,Display poster style
+52,Righteous,Open Sans,Righteous|Open+Sans:wght@400;600,futuristic bold unique,Gaming entertainment,Unique angular display
+53,Bungee,Work Sans,Bungee|Work+Sans:wght@400;500,bold urban expressive,Urban youth brands,Layered chromatic display
+54,Lobster,Raleway,Lobster|Raleway:wght@400;500;600,retro script bold,Casual restaurants,Bold script style
+55,Permanent Marker,Nunito,Permanent+Marker|Nunito:wght@400;600,handwritten marker casual,Youth casual brands,Marker pen style
+56,Zilla Slab,Lora,Zilla+Slab:wght@400;500;600;700|Lora:wght@400;500,contemporary slab editorial,Editorial tech,Mozilla's contemporary slab
+57,Bitter,Open Sans,Bitter:wght@400;500;600;700|Open+Sans:wght@400;600,readable slab versatile,Editorial blogs,Comfortable reading slab

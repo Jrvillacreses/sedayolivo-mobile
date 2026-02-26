@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seda & Olivo | Cocina Fusión</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700;900&family=Playfair+Display:ital,wght@1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">
+                Seda <span class="amp">&</span> Olivo
+                <span class="subtitle">Donde el Sol se encuentra con el Dragón</span>
+            </h1>
+            <a href="#reservation" class="cta-button">Reserva tu Experiencia</a>
+        </div>
+        <div class="hero-overlay"></div>
+    </header>
+
+    <!-- Menu Section (CSS Tabs) -->
+    <section class="menu-section" id="menu">
+        <h2 class="section-title">Nuestra Carta Fusión</h2>
+        
+        <div class="tabs-container">
+            <input type="radio" name="menu-tabs" id="tab-tapas" checked>
+            <input type="radio" name="menu-tabs" id="tab-bento">
+            
+            <div class="tabs-labels">
+                <label for="tab-tapas" class="tab-label">Tapas Fusión</label>
+                <label for="tab-bento" class="tab-label">Bento Mediterráneo</label>
+            </div>
+            
+            <div class="tab-content" id="content-tapas">
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <h3>Croquetas de Kimchi</h3>
+                        <p>Bechamel cremosa, kimchi fermentado y alioli de ajo negro.</p>
+                        <span class="price">8€</span>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Gyozas de Rabo de Toro</h3>
+                        <p>Empanadillas rellenas de estofado tradicional, salsa ponzu-cítrica.</p>
+                        <span class="price">12€</span>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Patatas Bravas "Fuji"</h3>
+                        <p>Corte grueso, salsa brava de gochujang y espuma de wasabi suave.</p>
+                        <span class="price">9€</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="tab-content" id="content-bento">
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <h3>Bento "Ibiza"</h3>
+                        <p>Sashimi de dorada, ensalada griega, hummus de edamame, arroz caldoso.</p>
+                        <span class="price">22€</span>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Bento "Sevilla"</h3>
+                        <p>Tataki de secreto ibérico, tempura de verduras de la huerta, gazpacho de fresas.</p>
+                        <span class="price">24€</span>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Bento "Olimpo"</h3>
+                        <p>Rolls de moussaka, tiradito de pulpo a la gallega, wakame con queso feta.</p>
+                        <span class="price">20€</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery-section">
+        <h2 class="section-title">Galería Visual</h2>
+        <div class="gallery-grid">
+            <div class="gallery-item item1">
+                <div class="overlay"><h4>Arte en el Plato</h4></div>
+            </div>
+            <div class="gallery-item item2">
+                <div class="overlay"><h4>Atmósfera Neón</h4></div>
+            </div>
+            <div class="gallery-item item3">
+                <div class="overlay"><h4>Sabores Explosivos</h4></div>
+            </div>
+            <div class="gallery-item item4">
+                <div class="overlay"><h4>Cócteles de Autor</h4></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reservation Form -->
+    <section class="reservation-section" id="reservation">
+        <h2 class="section-title">Reserva Mesa</h2>
+        <form class="booking-form">
+            <div class="form-group">
+                <input type="text" id="name" required placeholder=" ">
+                <label for="name">Nombre Completo</label>
+            </div>
+            <div class="form-group">
+                <input type="date" id="date" required placeholder=" ">
+                <label for="date">Fecha</label>
+            </div>
+            <div class="form-group">
+                <input type="number" id="guests" min="1" max="10" required placeholder=" ">
+                <label for="guests">Personas</label>
+            </div>
+            <button type="submit" class="submit-btn">Confirmar Reserva</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Seda & Olivo © 2026. Fusión sin límites.</p>
+    </footer>
+
+</body>
+</html>
